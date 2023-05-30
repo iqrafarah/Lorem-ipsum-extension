@@ -1,0 +1,24 @@
+{
+    "name": "vscode-lorem-extension",
+    "displayName": "Lorem Extension",
+    "description": "Generates lorem ipsum text.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.LoremTeksten"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.LoremTeksten",
+                "title": "Generate Lorem"
+            }
+        ]
+    }
+}
